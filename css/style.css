@@ -406,6 +406,10 @@ body {
   cursor: pointer;
 }
 
+.order__form input:hover {
+  background-color: #eceaea;
+}
+
 .order__form input::placeholder {
   font-family: "Proxima nova";
   font-size: 18px;
@@ -884,6 +888,11 @@ body {
   color: #354052;
   border-style: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacts__form button:hover {
+  background-color: #eceaea;
 }
 
 .contacts__text {
@@ -1003,6 +1012,10 @@ body {
   line-height: 13px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   color: #ffffff;
+}
+
+.nav__item a:hover {
+  border-bottom-color: #ffffff;
 }
 
 .nav__links a {
