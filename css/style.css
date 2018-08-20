@@ -1,7 +1,28 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Black.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: "Proxima nova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   max-width: 1365px;
 }
 
@@ -159,7 +180,7 @@ body {
 
 .type__item--summer {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #ff4c04;
@@ -183,7 +204,7 @@ body {
 
 .type__item--winter {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #3482c4;
@@ -255,7 +276,7 @@ body {
 
 .type__item--protection {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #ff4c04;
@@ -279,7 +300,7 @@ body {
 
 .type__item--color {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #3482c4;
@@ -315,7 +336,7 @@ body {
 
 .type__item--security {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #ff4c04;
@@ -343,7 +364,7 @@ body {
 
 .type__item--silence {
   padding: 0;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
   font-weight: 900;
   color: #3482c4;
@@ -398,9 +419,9 @@ body {
   width: 230px;
   height: 48px;
   padding-left: 20px;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   border-style: none;
   border-radius: 5px;
   cursor: pointer;
@@ -411,9 +432,9 @@ body {
 }
 
 .order__form input::placeholder {
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .order__form-submit {
@@ -421,7 +442,7 @@ body {
   height: 50px;
   border-style: none;
   border-radius: 5px;
-  font-family: "Proxima nova";
+  font-family: "Proxima Nova";
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
