@@ -140,6 +140,18 @@ body {
   color: #4d4d4d;
 }
 
+@media (max-width: 1024px) {
+  .banner {
+    background-position: right top;
+  }
+  
+  .banner__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .discription__container {
   max-width: 1110px;
   margin: 0 auto;
@@ -174,6 +186,23 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #0e2f4f;
+}
+
+@media (max-width: 1024px) {
+  .discription__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .discription__wrap-left {
+    width: 400px;
+    margin-right: 50px;
+  }
+
+  .discription__text {
+    width: 350px;
+  }
 }
 
 .type {
@@ -459,6 +488,35 @@ body {
   background: url("../img/icon-man-blue.png") no-repeat;
 }
 
+@media (max-width: 1024px) {
+  .type-one__container,
+  .type-two__container,
+  .type-three__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .type-one__container,
+  .type-three__container {
+    background-size: 50%;
+    background-position-y: 70px;
+  }
+
+  .type-two__container {
+    background-size: 65%;
+    background-position-y: 60px;
+  }
+
+  .wrap {
+    width: 355px;
+  }
+
+  .type-two__container .wrap {
+    width: 355px;
+  }
+}
+
 .order {
   padding-top: 54px;
   padding-bottom: 70px;
@@ -571,8 +629,28 @@ body {
   background: url("../img/icon-gift.png") no-repeat center;
 }
 
+@media (max-width: 1024px) {
+  .order__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .order__form {
+    width: 738px;
+  }
+
+  .order__form input {
+    width: 220px;
+  }
+
+  .order__form-submit {
+    width: 240px;
+  }  
+}
+
 .app {
-  background: url("../img/bg-app.jpg") no-repeat;
+  background: #F4F7FE url("../img/bg-app.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -685,6 +763,18 @@ body {
   margin-right: 26px;
 }
 
+@media (max-width: 1024px) {
+  .app {
+    background-position: center top;
+  }
+
+  .app__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .windows__container {
   max-width: 1100px;
   margin: 0 auto;
@@ -697,6 +787,7 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -765,6 +856,23 @@ body {
 
 .windows__text-payment span {
   color: #f07c00;
+}
+
+@media (max-width: 1024px) {
+  .windows__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .windows__item-1 {
+    margin-bottom: 25px;
+  }
+
+  .windows__item-3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .advantages {
@@ -859,6 +967,19 @@ body {
   color: #0e2f4f;
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .advantages__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .advantages__item-2 {
+    width: 270px;
+  }
+}
+
 .offer {
   background: url("../img/bg-offer.jpg") no-repeat center;
   background-size: cover;
@@ -952,6 +1073,23 @@ body {
   font-weight: 400;
   color: #ffffff;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .offer__container {
+    max-width: 738px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wrap-left {
+    margin-right: 15px;
+  }
+
+  .offer__item:not(:last-child)::before {
+    right: -15px;
+    top: 70px;
+  }
 }
 
 .contacts {
