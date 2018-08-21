@@ -152,6 +152,23 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .banner__container {
+    max-width: 290px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .banner__title {
+    font-size: 38px;
+  }
+
+  .banner__text {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
 .discription__container {
   max-width: 1110px;
   margin: 0 auto;
@@ -199,9 +216,30 @@ body {
     width: 400px;
     margin-right: 50px;
   }
+}
+
+@media (max-width: 768px) {
+  .discription__container {
+    max-width: 290px;
+    display: block;
+  }
+
+  .discription__wrap-left {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .discription__wrap-right {
+    width: 290px;
+  }
 
   .discription__text {
     width: 350px;
+  }
+
+  .discription__text {
+    width: 100%;
+    font-size: 16px;
   }
 }
 
@@ -517,6 +555,42 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .type-one__container,
+  .type-two__container,
+  .type-three__container {
+    max-width: 290px;
+    background-image: none;
+  }
+
+  .type-one__text,
+  .type-two__text,
+  .type-three__text {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .wrap,
+  .type-two__container .wrap {
+    display: block;
+    width: 290px;
+  }
+
+  .type__list {
+    width: 290px;
+    margin-right: 0;
+  }
+
+  .type-two__title {
+    text-align: left;
+  }
+
+  .type-two__text {
+    width: 290px;
+    text-align: left;
+  }
+}
+
 .order {
   padding-top: 54px;
   padding-bottom: 70px;
@@ -649,6 +723,30 @@ body {
   }  
 }
 
+@media (max-width: 768px) {
+  .order__container {
+    max-width: 290px;
+  }
+
+  .order__form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .order__form input {
+    margin-bottom: 15px;
+  }
+
+  .order__text {
+    width: 100%;
+  }
+
+  .order__text-icon::before {
+    display: none;
+  }
+}
+
 .app {
   background: #F4F7FE url("../img/bg-app.jpg") no-repeat;
   background-size: cover;
@@ -775,6 +873,57 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .app {
+    background-image: none;
+  }
+
+  .app__container {
+    max-width: 290px;
+  }
+
+  .app__title {
+    font-size: 26px;
+  }
+
+  .app__text {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .app__list {
+    width: 100%;
+  }
+
+  .app__item {
+    padding-left: 60px;
+    margin-bottom: 30px;
+  }
+
+  .app__item--01::before,
+  .app__item--02::before,
+  .app__item--03::before {
+    font-size: 40px;
+    top: -5px;
+  }
+
+  .app__item h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .app__item p {
+    width: 100%;
+    margin: 0;
+    font-family: "PT Sans";
+    font-size: 16px;
+  }
+
+  .app__text-bottom {
+    width: 100%;
+  }
+}
+
 .windows__container {
   max-width: 1100px;
   margin: 0 auto;
@@ -872,6 +1021,24 @@ body {
   .windows__item-3 {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .windows__container {
+    max-width: 290px;
+  }
+
+  .windows__list {
+    justify-content: center;
+  }
+
+  .windows__item-2 {
+    margin-bottom: 25px;
+  }
+
+  .windows__item-3 img {
+    width: 290px;
   }
 }
 
@@ -977,6 +1144,21 @@ body {
 
   .advantages__item-2 {
     width: 270px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantages__container {
+    max-width: 320px;
+  }
+
+  .advantages__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__item {
+    margin-bottom: 20px;
   }
 }
 
@@ -1089,6 +1271,51 @@ body {
   .offer__item:not(:last-child)::before {
     right: -15px;
     top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .offer__container {
+    max-width: 290px;
+    flex-direction: column;
+  }
+
+  .wrap-left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .offer__text {
+    font-size: 28px;
+  }
+
+  .offer__link {
+    width: 100%;
+  }
+
+  .wrap-right {
+    width: 100%;
+  }
+
+  .offer__item:not(:last-child)::before {
+    width: 10px;
+    height: 10px;
+    right: -10px;
+    top: 50px;
+  }
+
+  .offer__item-num {
+    font-size: 90px;
+    line-height: 100px;
+  }
+
+  .offer__item-text {
+    font-size: 16px;
   }
 }
 
