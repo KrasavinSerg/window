@@ -152,7 +152,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .banner__container {
     max-width: 290px;
     padding-top: 60px;
@@ -222,7 +222,7 @@ body {
   }  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .discription__container {
     max-width: 290px;
     display: block;
@@ -559,7 +559,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .type-one__container,
   .type-two__container,
   .type-three__container {
@@ -732,7 +732,7 @@ body {
   }  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .order__container {
     max-width: 290px;
   }
@@ -882,7 +882,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .app {
     background-image: none;
   }
@@ -1033,7 +1033,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .windows__container {
     max-width: 290px;
   }
@@ -1156,7 +1156,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .advantages__container {
     max-width: 320px;
   }
@@ -1286,7 +1286,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .offer {
     padding-top: 50px;
     padding-bottom: 50px;
